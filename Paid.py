@@ -74,7 +74,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('').text
+    prox= requests.get('https://github.com/mrwolfboy/PAID/blob/main/prox.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
