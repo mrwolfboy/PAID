@@ -128,7 +128,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('').text
+        a=requests.get('https://github.com/mrwolfboy/PAID/blob/main/bbnew.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -294,7 +294,7 @@ def meyexudi():
   except:
     sys.exit()
 meyexudi()
-#os.system("python PAID.py")
+#os.system("python Paid.py")
 def naima():
 	print('-------------------')
 print(logo)
